@@ -1,0 +1,84 @@
+/* Định dạng container bao ngoài form đăng ký */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif; /* Font chữ Arial cho toàn container */
+  }
+  
+  /* Định dạng cho form đăng ký */
+  .register-form {
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    height: 500px;
+  }
+  
+  /* Nhóm các label và input */
+  .input-group {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  
+  /* Label của ô nhập liệu */
+  .input-group label {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Các ô nhập liệu (email, tên người dùng, mật khẩu, nhập lại mật khẩu) */
+  .input-group input[type="email"],
+  .input-group input[type="text"],
+  .input-group input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+  }
+  
+  /* Nút đăng ký */
+  .register-button {
+    width: 200px;
+    height: 45px;
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+  
+  /* Hiệu ứng khi di chuột qua nút đăng ký */
+  .register-button:hover {
+    background-color: #b2a105;
+  }
+  
+  /* Phần chứa liên kết "Đã có tài khoản?" */
+  .login-link {
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  
+  /* Liên kết "Đăng nhập" */
+  .login-link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hiệu ứng khi di chuột qua liên kết "Đăng nhập" */
+  .login-link a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,102 @@
+/* Định dạng container bao ngoài form đăng nhập */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif; 
+  margin: 0;
+}
+
+/* Định dạng cho form đăng nhập */
+.login-form {
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  height: 500px;
+}
+
+/* Nhóm các label và input */
+.input-group {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* Label của ô nhập liệu */
+.input-group label {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Các ô nhập liệu (tên người dùng, mật khẩu) */
+.input-group input[type="text"],
+.input-group input[type="password"] {
+  width: calc(100% - 22px);
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  display: block;
+}
+
+/* Nút đăng nhập */
+.login-button {
+  width: 200px;
+  height: 45px;
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+/* Hiệu ứng khi di chuột qua nút đăng nhập */
+.login-button:hover {
+  background-color: #b2a105;
+}
+
+/* Phần chứa liên kết "Quên Tên người dùng / Mật khẩu?" */
+.forgot-links {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Liên kết "Quên Tên người dùng / Mật khẩu?" */
+.forgot-links a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Hiệu ứng khi di chuột qua liên kết "Quên Tên người dùng / Mật khẩu?" */
+.forgot-links a:hover {
+  text-decoration: underline;
+}
+
+/* Phần chứa liên kết "Chưa có tài khoản?" */
+.create-account {
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+/* Liên kết "Tạo mới" */
+.create-account a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Hiệu ứng khi di chuột qua liên kết "Tạo mới" */
+.create-account a:hover {
+  text-decoration: underline;
+}
